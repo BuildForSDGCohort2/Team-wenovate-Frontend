@@ -1,10 +1,15 @@
 import React from "react";
+import Navbar from "./Layout/Navbar";
+import { BrowserRouter as Router } from "react-router-dom";
+import Routes from "./Routes/Routes";
 
 function App() {
   return (
-    <div className="App">
-      <div>Welcome to wenovate ofr (Our Farm Project)</div>
-    </div>
+    <Router>
+      <Navbar/>
+      <Routes/>
+    </Router>
+ 
   );
 }
 

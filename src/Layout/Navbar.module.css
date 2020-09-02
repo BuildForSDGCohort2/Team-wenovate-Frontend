@@ -1,0 +1,39 @@
+/* Variables */
+:root {
+    --primary:  #070941;
+    --accent: #28EB68;
+  }
+
+.navBarLink {
+    font-family: "Nunito Bold";
+    cursor: pointer;
+    margin: 0 1em 0;
+    text-decoration: none;
+    color: var(--primary);
+    padding: 6px 10px;
+  }
+  
+  .navBarLink:hover {
+    transform: translateY(-3px);
+  }
+  
+  .navBarActive {
+    background-color: var(--accent);
+    padding: 6px 10px;
+    transition: background-color 0.5s ease-in-out;
+  }
+
+  .signInBtn {
+      padding: 12px 30px;
+      background-color: var(--accent);
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      border: 2px solid var(--accent);
+  }
+  .regBtn {
+      padding: 12px 30px;
+      background-color: var(--primary);
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      border: 2px solid var(--primary);
+  }
