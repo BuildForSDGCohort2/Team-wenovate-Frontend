@@ -63,6 +63,8 @@ const Navbar = () => {
           display={{ sm: "none", md: "grid" }}
         >
           <Button
+            _focus={{ boxShadow: "transparent" }}
+            _hover={{cursor: "pointer"}}
             mt={4}
             justifySelf="end"
             variantColor="accent"
@@ -91,6 +93,7 @@ const Navbar = () => {
           display={{ sm: "none", md: "grid" }}
         >
           <Button
+            _focus={{ boxShadow: "transparent" }}
             mt={4}
             justifySelf="end"
             variantColor="primary"

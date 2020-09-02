@@ -25,8 +25,8 @@ export const customTheme = {
     ...theme.colors,
     primary: "#070941",
     accent: "#28EB68",
-    grey: "#5A5866",
-    greyTint: "#CBCBD9",
+    baseGrey: "#5A5866",
+    tintGrey: "#CBCBD9",
   },
   breakpoints,
 };
