@@ -37,3 +37,9 @@
       font-weight: bold;
       border: 2px solid var(--primary);
   }
+
+  .moreBtn {
+    border: 2px solid white;
+    padding: 8px 2px;
+    background-color: white;
+  }
