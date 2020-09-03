@@ -1,6 +1,7 @@
 /* base styles */
 body {
   margin: 0;
+  height: 100vh;
   font-family: 'Nunito Regular';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
